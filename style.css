@@ -1,7 +1,61 @@
+* {
+  background: linear-gradient(145deg, #adadad, #cdcdcd);
+  color: #616161;
+  font-family: 'Oxanium', cursive;
+}
+
 .container {
-  width: 80vw;
+  position: relative;
+	width: 80vw;
   height: 80vh;
+  left: 10vw;
+  top: 10vh;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #dddddd;
+}
+
+.logo {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  left: 20px;
+  top: 20px;
 	border-radius: 30px;
 	background: linear-gradient(145deg, #adadad, #cdcdcd);
 	box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #dddddd;
+}
+
+.logo-text {
+  position: absolute;
+  align-content: center;
+  display: grid;
+  padding: 5px 10px;
+  width: 10vw;
+  height: 3vw;
+  left: 105px;
+  top: 10px;
+  text-align: center;
+	border-radius: 30px;
+	background: linear-gradient(145deg, #adadad, #cdcdcd);
+	box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #dddddd;
+}
+
+.projects {
+  position: relative;
+  width: 50vw;
+  height: 58vh;
+  top: 120px;
+  left: 105px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #dddddd;
+}
+
+.contact {
+  position: absolute;
+  top: 120px;
+  left: 62vw;
+  width: 15vw;
+  height: 50vh;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #dddddd;
 }
